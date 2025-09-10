@@ -71,3 +71,10 @@ for (let callBtn of callBtns) {
     callListBoard.appendChild(div);
   });
 }
+
+// clear history
+let clear = document.getElementById("clearBtn");
+clear.addEventListener("click", function () {
+  document.getElementById("callHistory").innerHTML = "";
+  document.getElementById("coinNum").innerText = "100";
+});
