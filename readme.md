@@ -28,3 +28,6 @@ It's useful because of better performance and Works even for dynamically added e
 5.What is the difference between preventDefault() and stopPropagation() methods?
 Difference between preventDefault() and stopPropagation() is :
 preventDefault() stops the default browser action and stopPropagation() Stops the event from bubbling up (or going down in capture).
+
+
+Explore Web : https://emergency-services-bd.netlify.app/
